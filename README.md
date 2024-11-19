@@ -4,17 +4,21 @@ It enables the exchange of data between a client (e.g., a web browser or mobile 
 
 
 Key Features of REST APIs:
+
 Stateless Communication:
+
 Each request from the client to the server must contain all the information needed to process the request. 
 The server does not store client state between requests.
 
 
 Resource-Based:
+
 REST APIs treat data as resources, each identified by a unique URL. 
 For example, /users could represent a list of users, and /users/123 could represent a specific user with ID 123.
 
 
 HTTP Methods:
+
 REST APIs use standard HTTP methods to perform actions on resources:
 
 
@@ -27,14 +31,17 @@ REST APIs often exchange data in lightweight formats like JSON or XML.
 
 
 Uniform Interface:
+
 REST APIs have a consistent and predictable structure, making it easier to use and understand.
 
 
 Caching:
+
 Responses can be cached to improve performance, reducing the need for repeated server calls.
 
 
 Example:
+
 Imagine an e-commerce app with a REST API:
 
 
@@ -45,6 +52,7 @@ DELETE /products/123: Remove product 123 from the inventory.
 
 
 Advantages of REST APIs:
+
 Platform-agnostic.
 Easy to use and widely supported.
 Scalable and efficient for modern web applications.
